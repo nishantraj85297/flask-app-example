@@ -8,7 +8,7 @@ connection = pymysql.connect(
     host="webapp-mysql.choqskyq0cdy.ap-south-1.rds.amazonaws.com",
     user="admin",
     password="abcnis123",
-    database="webapp-mysql"
+    database="webapp"
 )
 
 @app.route("/")
